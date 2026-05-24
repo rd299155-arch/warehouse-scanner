@@ -338,7 +338,6 @@ document.getElementById("comment")
 }, 2500);
 
 }
-
 const html5QrCode = new Html5Qrcode("reader");
 
 html5QrCode.start(
@@ -346,7 +345,7 @@ html5QrCode.start(
 facingMode: "environment"
 },
 {
-fps: 15,
+fps: 10,
 
 experimentalFeatures: {
 useBarCodeDetectorIfSupported: true
