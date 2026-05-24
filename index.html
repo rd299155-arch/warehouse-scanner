@@ -346,7 +346,12 @@ html5QrCode.start(
 facingMode: "environment"
 },
 {
-fps: 8
+fps: 15,
+
+experimentalFeatures: {
+useBarCodeDetectorIfSupported: true
+}
+
 },
 onScanSuccess
 ).then(() => {
